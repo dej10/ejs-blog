@@ -32,7 +32,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 
-mongoose.connect("mongodb+srv://admin-10:CFjYcvNHJrn2air@cluster0.ywbwq.mongodb.net/blogDB", { 
+mongoose.connect("mongodb+srv://admin-10:xyz@cluster0.ywbwq.mongodb.net/blogDB", { 
     useNewUrlParser: true, 
     useCreateIndex: true, 
     useUnifiedTopology: true, 
